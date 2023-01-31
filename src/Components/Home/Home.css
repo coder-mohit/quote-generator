@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+  background-color: #008aa9;
+  font-family: 'Redressed', cursive;
+  text-align: end;
+}
+#quote-box{
+  width: 60vw;
+  background-color: rgb(255, 255, 255);
+  margin: 8rem auto;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+  box-shadow: -3px -8px 30px #3c4d51;
+}
+#wrapper{
+  margin-top: 1.5rem;
+  padding: 0.3rem 2rem;
+  border-radius: 15px;
+  box-shadow: -3px -3px 30px #64797e;
+}
+#text{
+  font-size: 2.3rem;
+  text-align: justify;
+  color: #008aa9;
+  font-weight: bold;
+}
+#author{
+  font-size: 1.9rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+#new_quote{
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  /* margin: 2rem 0 0 0; */
+  margin-right: 100px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #008aa9;
+  color: #fff;
+}
+.dropdown{
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.selectColor{
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  margin: 10px 0 0 0;
+  margin-left: 40px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #008aa9;
+  color: #fff;
+  text-transform: capitalize;
+
+}
+
+/*****************  MEDIA QUERY ******************/
+@media only screen and (max-width: 600px) {
+  #quote-box{
+    width: 80vw;
+    margin: 8rem auto;
+    padding: 1rem 2rem;
+  }
+  #wrapper{
+    padding: 1rem 2rem;
+  }
+  #text{
+    font-size: 1.7rem;
+  }
+  #author{
+    font-size: 1.4rem;
+  }
+  #new_quote{
+    font-size: 1rem;
+    margin: 2rem 0 1rem 0;
+  }
+}
